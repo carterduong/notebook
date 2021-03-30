@@ -1,7 +1,7 @@
-Kill process on `<port>` number
+Kill a process on a specific `<port>` number
 ~~~
 > lsof -i :<port>
-> kill -9 <port>
+> kill -9 <process-id>
 ~~~
 
 Sync a remote folder in archive mode
